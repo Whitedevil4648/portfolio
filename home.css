@@ -1,0 +1,198 @@
+/* body */
+body{
+			background: url('img/bg.jpg');
+			background-size:cover ;
+			
+}
+
+
+/* navigation bar */
+
+
+.navbar{
+				background-color:#20190b ;
+				border-radius: 50px;
+				z-index: 100;		
+}
+
+.navbar ul{z-index: 100;
+				overflow: auto;
+}
+.menu{z-index: 100;
+				top: 0px;
+				position: sticky;
+}
+.navbar ul li{z-index: 100;
+				list-style: none;
+		   float: left;
+		   padding:1% ;
+		   margin-left:5% ;
+		   margin-right: 5%;
+}
+.navbar a{z-index: 100;
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				border-radius: 30px;
+				font-size: 15px;
+				font-weight: 500;
+}
+
+.navbar a:hover{
+				background-color: white;
+				color: black;
+				padding: 5px;
+}
+
+.navbar a:active{
+				background-color: #ffc755;
+				color: #71ff6a;
+				padding: 5px;
+}
+
+
+/* body css starts */
+
+
+.topic{
+				font-weight:500;
+				font-size:50px ;
+				background-color: #80ff83;
+				border-radius: 10px;
+				padding: 15px;
+				display: inline;
+				color: #6a8dff;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				margin-left: 15px;
+				font-family: 'Dela Gothic One', cursive;
+
+
+}
+
+.content{
+				color: #404eff;
+				
+				margin-left: 30px;
+				font-size: 30px;
+				background-color:#ffeaff ;
+				border-radius:10px ;
+				padding: 3%;			
+				width: 80%;
+				height: auto;
+				margin-bottom: 100px;
+				font-family: 'Akaya Kanadaka', cursive;
+
+
+}
+
+
+
+/* footer css */
+.footer{
+				position: sticky;
+				bottom: 0px;
+}
+
+.foot{
+				background-color:#20190b ;
+				border-radius: 5px;
+				margin-left: 0px;
+				margin-right: 0px;
+}
+.foot ul{
+				overflow: auto;
+}
+
+.foot ul li{
+				list-style: none;
+		   float: left;
+		   padding:1% ;
+		   margin-left:7% ;
+}
+
+.foot ul li a{
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				border-radius: 30px;
+				font-size: 15px;
+				font-weight: 500;
+}
+
+.foot ul li a:hover{
+				background-color: white;
+				color: black;
+				padding: 5px;
+}
+
+.foot ul li a:active{
+				background-color: #ffc755;
+				color: #71ff6a;
+				padding: 5px;
+}
+
+
+/* Image css */
+.img{z-index: 0;
+				position: absolute;
+				border-radius: 10px;
+}
+
+#git{top:125px;
+			 	right: 40%;	
+			 	width: 100px;	
+			 	height: 100px;
+}
+#mlh{
+		right: 40%;
+		top: 1000px;		
+}
+#dev{
+	top: 600px;
+	right: 25%;			
+}
+#dis{top: 1050px;
+				right:10%;
+				width: 100px;
+				height: 100px;
+}
+
+#html{
+				right: 40%;
+				height: 100px;
+				width: 300px;
+			top: 650px;
+}
+
+#pyth{
+				height: 200px;
+				width: 200px;
+				right: 50%;
+				top: 430px;
+}
+
+#unity{width: 200px;
+				  height: 150px;
+				  top: 1150px;
+				  right: 12%;
+				
+}
+#ml{width: 200px;
+		 height: 200px;
+		 right: 33%;
+		 top: 1150px;
+				
+}
+#dev1{
+			width: 200px;	
+			height: 200px;
+			right: 25%;
+			top: 70px;
+}
+#dev2{width: 400px;
+				 height: 300px;
+				 right: 15%;
+				 top: 920px;
+				
+}
